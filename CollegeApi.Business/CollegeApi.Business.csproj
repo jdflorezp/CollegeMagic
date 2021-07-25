@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CollegeApi.Common\CollegeApi.Common.csproj" />
+    <ProjectReference Include="..\CollegeApi.Domain\CollegeApi.Domain.csproj" />
+    <ProjectReference Include="..\CollegeApi.Model\CollegeApi.Model.csproj" />
+    <ProjectReference Include="..\CollegeApi.Repository\CollegeApi.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
